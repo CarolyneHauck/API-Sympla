@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{E82B85B7-7D70-413F-8A1A-D03680C9AE18}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ListEventick/Startup.cs">
+    <Files>
+      <File FileName="HttpClientEventick/Response/ParticipantsResponse.cs" Line="26" Column="40" />
+      <File FileName="HttpClientEventick/Program.cs" Line="31" Column="1" />
+      <File FileName="HttpClientEventick/Response/EventsResponse.cs" Line="19" Column="6" />
+      <File FileName="ListEventick/Startup.cs" Line="44" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ConsumeEventick" expanded="True">
+            <Node name="ListEventick" expanded="True">
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.HttpClientEventick PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MVC__Eventick FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/carolyne.carreira/Projects/HttpClientEventick/HttpClientEventick/Program.cs" relfile="HttpClientEventick/Program.cs" line="34" column="1" />
+      <Breakpoint file="/Users/carolyne.carreira/Projects/HttpClientEventick/HttpClientEventick/Program.cs" relfile="HttpClientEventick/Program.cs" line="54" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

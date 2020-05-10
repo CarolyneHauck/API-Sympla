@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientEventick", "HttpClientEventick\HttpClientEventick.csproj", "{E82B85B7-7D70-413F-8A1A-D03680C9AE18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Eventick", "ListEventick\MVC_Eventick.csproj", "{7B195E6A-5A97-481C-BFCB-E20E9D75BCD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E82B85B7-7D70-413F-8A1A-D03680C9AE18}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{E82B85B7-7D70-413F-8A1A-D03680C9AE18}.Debug|anycpu.Build.0 = Debug|anycpu
+		{E82B85B7-7D70-413F-8A1A-D03680C9AE18}.Release|anycpu.ActiveCfg = Release|anycpu
+		{E82B85B7-7D70-413F-8A1A-D03680C9AE18}.Release|anycpu.Build.0 = Release|anycpu
+		{7B195E6A-5A97-481C-BFCB-E20E9D75BCD8}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{7B195E6A-5A97-481C-BFCB-E20E9D75BCD8}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{7B195E6A-5A97-481C-BFCB-E20E9D75BCD8}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{7B195E6A-5A97-481C-BFCB-E20E9D75BCD8}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
