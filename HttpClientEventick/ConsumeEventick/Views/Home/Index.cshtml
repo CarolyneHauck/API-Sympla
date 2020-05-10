@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Minha lista de Eventos da plataforma Sympla</h1>
+</div>
+
+
+@if (Model.Pagination.Quantity == 0)
+{
+    <p><strong>Nao existem participantes nesse evento!</strong></p>
+}
+else
+{
+    //for (int i = 0; i <= Model.Pagination.Quantity; i++)
+    <table width="100%" border="1">
+       <tr>
+           <th colspan="1" width="30%">Nome do Evento:</th>
+           <td colspan="1" width="30%"><code>@Model.Data[0].Name</code></td>
+           <td colspan="1" width="40%"><code>@Model.Data[1].Name</code></td>
+       </tr>
+       <tr>
+           <th>Id do Evento:</th>
+           <td><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy" asp-route-id="@Model.Data[0].Id"><code>@Model.Data[0].Id</code></a></td>
+           <td><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy" asp-route-id="@Model.Data[1].Id"><code>@Model.Data[1].Id</code></a></td>
+       </tr>
+        <tr>
+           <th>Data de Inicio:</th>
+           <td><code>@Model.Data[0].StartDate</code></td>
+           <td><code>@Model.Data[1].StartDate</code></td>
+       </tr>
+        <tr>
+           <th>Data Final:</th>
+           <td><code>@Model.Data[0].EndDate</code></td>
+           <td><code>@Model.Data[1].EndDate</code></td>
+       </tr>
+        <tr>
+           <th>Detalhes do evento:</th>
+           <td><code>@Model.Data[0].Detail</code></td>
+           <td><code>@Model.Data[1].Detail</code></td>
+       </tr>
+       <tr>
+           <th>Local do evento:</th>
+           <td><code>@Model.Data[0].Address.Name</code></td>
+           <td><code>@Model.Data[1].Address.Name</code></td>
+       </tr>
+       <tr>
+           <th>Organizador do evento:</th>
+           <td><code>@Model.Data[0].Host.Name</code></td>
+           <td><code>@Model.Data[1].Host.Name</code></td>
+       </tr>
+    </table>
+}
+
+<br><div class="text-center">
+    <p>Para verificar a lista de participantes de um Evento clique no "Id do Evento.</p>
+</div>

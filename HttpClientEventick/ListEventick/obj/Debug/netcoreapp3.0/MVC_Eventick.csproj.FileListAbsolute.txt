@@ -9,7 +9,6 @@
 /Users/carolyne.carreira/Projects/HttpClientEventick/ListEventick/bin/Debug/netcoreapp3.0/MVC_Eventick.pdb
 /Users/carolyne.carreira/Projects/HttpClientEventick/ListEventick/bin/Debug/netcoreapp3.0/MVC_Eventick.Views.dll
 /Users/carolyne.carreira/Projects/HttpClientEventick/ListEventick/bin/Debug/netcoreapp3.0/MVC_Eventick.Views.pdb
-/Users/carolyne.carreira/Projects/HttpClientEventick/ListEventick/obj/Debug/netcoreapp3.0/MVC_Eventick.csprojAssemblyReference.cache
 /Users/carolyne.carreira/Projects/HttpClientEventick/ListEventick/obj/Debug/netcoreapp3.0/staticwebassets/MVC_Eventick.StaticWebAssets.Manifest.cache
 /Users/carolyne.carreira/Projects/HttpClientEventick/ListEventick/obj/Debug/netcoreapp3.0/staticwebassets/MVC_Eventick.StaticWebAssets.xml
 /Users/carolyne.carreira/Projects/HttpClientEventick/ListEventick/obj/Debug/netcoreapp3.0/MVC_Eventick.MvcApplicationPartsAssemblyInfo.cache
@@ -33,3 +32,4 @@
 /Users/carolyne.carreira/Projects/HttpClientEventick/ListEventick/obj/Debug/netcoreapp3.0/MVC_Eventick.dll
 /Users/carolyne.carreira/Projects/HttpClientEventick/ListEventick/obj/Debug/netcoreapp3.0/MVC_Eventick.pdb
 /Users/carolyne.carreira/Projects/HttpClientEventick/ListEventick/obj/Debug/netcoreapp3.0/MVC_Eventick.csproj.CopyComplete
+/Users/carolyne.carreira/Projects/HttpClientEventick/ListEventick/obj/Debug/netcoreapp3.0/MVC_Eventick.csprojAssemblyReference.cache

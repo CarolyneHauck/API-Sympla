@@ -1,17 +1,28 @@
-﻿<Properties StartupConfiguration="{E82B85B7-7D70-413F-8A1A-D03680C9AE18}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ListEventick/Startup.cs">
+﻿<Properties StartupConfiguration="{FD26B1C2-AD51-43BE-AA20-FE3802AD6896}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsumeEventick/Models/ParticipantsResponse.cs">
     <Files>
-      <File FileName="HttpClientEventick/Response/ParticipantsResponse.cs" Line="26" Column="40" />
-      <File FileName="HttpClientEventick/Program.cs" Line="31" Column="1" />
-      <File FileName="HttpClientEventick/Response/EventsResponse.cs" Line="19" Column="6" />
-      <File FileName="ListEventick/Startup.cs" Line="44" Column="1" />
+      <File FileName="consumeEventick/Views/Home/Privacy.cshtml" Line="23" Column="9" />
+      <File FileName="ConsumeEventick/Controllers/HomeController.cs" Line="68" Column="1" />
+      <File FileName="consumeEventick/Views/Shared/Error.cshtml" Line="1" Column="1" />
+      <File FileName="consumeEventick/Views/Home/Index.cshtml" Line="16" Column="124" />
+      <File FileName="consumeEventick/Models/ErrorViewModel.cs" Line="9" Column="9" />
+      <File FileName="consumeEventick/Models/EventsResponse.cs" Line="1" Column="1" />
+      <File FileName="consumeEventick/Models/ParticipantsResponse.cs" Line="14" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConsumeEventick" expanded="True">
-            <Node name="ListEventick" expanded="True">
-              <Node name="Startup.cs" selected="True" />
+            <Node name="consumeEventick" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ParticipantsResponse.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -21,14 +32,17 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.HttpClientEventick PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.consumeEventick PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MVC__Eventick FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/carolyne.carreira/Projects/HttpClientEventick/HttpClientEventick/Program.cs" relfile="HttpClientEventick/Program.cs" line="34" column="1" />
-      <Breakpoint file="/Users/carolyne.carreira/Projects/HttpClientEventick/HttpClientEventick/Program.cs" relfile="HttpClientEventick/Program.cs" line="54" column="1" />
+      <Breakpoint file="/Users/carolyne.carreira/Projects/HttpClientEventick/HttpClientEventick/Program.cs" relfile="HttpClientEventick/Program.cs" line="33" column="1" />
+      <Breakpoint file="/Users/carolyne.carreira/Projects/HttpClientEventick/HttpClientEventick/Program.cs" relfile="HttpClientEventick/Program.cs" line="53" column="1" />
+      <Breakpoint file="/Users/carolyne.carreira/Projects/HttpClientEventick/ConsumeEventick/Controllers/EventsController.cs" relfile="ConsumeEventick/Controllers/EventsController.cs" line="20" column="1" />
+      <Breakpoint file="/Users/carolyne.carreira/Projects/HttpClientEventick/ConsumeEventick/Controllers/EventsController.cs" relfile="ConsumeEventick/Controllers/EventsController.cs" line="29" column="1" />
+      <Breakpoint file="/Users/carolyne.carreira/Projects/HttpClientEventick/ConsumeEventick/Controllers/HomeController.cs" relfile="ConsumeEventick/Controllers/HomeController.cs" line="55" column="1" />
+      <Breakpoint file="/Users/carolyne.carreira/Projects/HttpClientEventick/ConsumeEventick/Controllers/HomeController.cs" relfile="ConsumeEventick/Controllers/HomeController.cs" line="57" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

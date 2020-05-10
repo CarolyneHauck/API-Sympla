@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Participantes do Evento";
+}
+<h1>@ViewData["Title"]</h1>
+
+@if (Model.Pagination.Quantity == 0)
+{
+    <p><strong>Nao existem participantes nesse evento!</strong></p>
+}
+else
+{
+    <table width="100%" border="1">
+       <tr>
+           <th colspan="1" width="30%">Nome do Participante:</th>
+           <td colspan="1" width="30%"><code>@Model.Data[0].FirstName</code> <code>@Model.Data[0].LastName</code></td>
+       </tr>
+       <tr>
+           <th>Email do Participante:</th>
+           <td><code>@Model.Data[0].Email</code></td>
+       </tr>
+       <tr>
+           <th>Tipo de ingresso:</th>
+           <td><code>@Model.Data[0].TicketName</code></td>
+       </tr>
+       <tr>
+           <th>Id do Usuario:</th>
+           <td><code>@Model.Data[0].Id</code></td>
+       </tr>
+    </table>
+}

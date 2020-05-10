@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Net;
+using System.IO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using ListEventick.Models;
@@ -20,6 +22,8 @@ namespace ListEventick.Controllers
 
         public IActionResult Index()
         {
+            var teste = ListEvents();
+
             return View();
         }
 

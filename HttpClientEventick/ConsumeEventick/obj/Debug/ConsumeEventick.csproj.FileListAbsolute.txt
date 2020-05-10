@@ -1,0 +1,1 @@
+/Users/carolyne.carreira/Projects/HttpClientEventick/ConsumeEventick/obj/Debug/ConsumeEventick.csprojAssemblyReference.cache
