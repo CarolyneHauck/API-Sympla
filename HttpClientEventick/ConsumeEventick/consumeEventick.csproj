@@ -17,7 +17,6 @@
     <Compile Remove="Controllers\EventsController.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Remove="Views\Home\Index %28copy%29.cshtml" />
     <Content Remove="Views\Home\EventsResponse.cshtml" />
   </ItemGroup>
 </Project>

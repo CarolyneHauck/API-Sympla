@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Minha lista de Eventos da plataforma Sympla</h1>
+</div>
+
+
+@if (Model.Pagination.Quantity == 0)
+{
+    <p><strong>Nao existem participantes nesse evento!</strong></p>
+}
+else
+{
+    for (int i = 0; i <= Model.Pagination.Quantity - 1; i++)
+    {
+        <br>
+        <table width="100%" border="1">
+           <tr>
+               <th colspan="1" width="40%">Nome do Evento:</th>
+               <td colspan="1" width="60%"><code>@Model.Data[@i].Name</code></td>
+           </tr>
+           <tr>
+               <th>Id do Evento:</th>
+               <td><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy" asp-route-id="@Model.Data[@i].Id" asp-route-token="@Model.Token"><code>@Model.Data[@i].Id</code></a></td>
+           </tr>
+            <tr>
+               <th>Data de Inicio:</th>
+               <td><code>@Model.Data[@i].StartDate</code></td>
+           </tr>
+            <tr>
+               <th>Data Final:</th>
+               <td><code>@Model.Data[@i].EndDate</code></td>
+           </tr>
+            <tr>
+               <th>Detalhes do evento:</th>
+               <td><code>@Model.Data[@i].Detail</code></td>
+           </tr>
+           <tr>
+               <th>Organizador do evento:</th>
+               <td><code>@Model.Data[@i].Host.Name</code></td>
+           </tr>
+           <tr>
+               <th>Url:</th>
+               <td><code>@Model.Data[@i].Url</code></td>
+           </tr>
+           <tr>
+               <th>Local do evento:</th>
+               <td><code>@Model.Data[@i].Address.Name</code></td>
+           </tr>
+           <tr>
+               <th>Categoria do Evento:</th>
+               <td><code>@Model.Data[@i].CategoryPrim.Name</code></td>
+           </tr>
+        </table>
+    }
+}
+
+<br><div class="text-center">
+    <p>Para verificar a lista de participantes de um Evento clique no "Id do Evento.</p>
+</div>

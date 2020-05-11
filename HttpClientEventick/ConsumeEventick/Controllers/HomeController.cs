@@ -22,10 +22,15 @@ namespace consumeEventick.Controllers
 
         public IActionResult Index()
         {
+            return View();
+        }
+
+        public IActionResult Events(string token)
+        {
             var request = (HttpWebRequest)WebRequest.Create("https://api.sympla.com.br/public/v3/events");
             request.Method = "GET";
 
-            request.Headers["s_token"] = "c1550a463a9b91d2e01ca8320460743fb22a7360e71aa3354db36199599aca0c";//Adding AuthToken to the Request Header
+            request.Headers["s_token"] = token;//Adding AuthToken to the Request Header
 
             var response = (HttpWebResponse)request.GetResponse();
             using (var streamReader = new StreamReader(response.GetResponseStream()))
@@ -34,18 +39,18 @@ namespace consumeEventick.Controllers
 
                 var result = JsonConvert.DeserializeObject<EventsResponse>(jsonResponse);
 
-                return View(new EventsResponse { Data = result.Data, Pagination = result.Pagination });
+                return View(new EventsResponse { Data = result.Data, Pagination = result.Pagination, Token = token });
             }
         }
 
-        public IActionResult Privacy(int id)
+        public IActionResult Privacy(int id, string token)
         {
             var url = String.Format("https://api.sympla.com.br/public/v3/events/{0}/participants", id);
 
             var request = (HttpWebRequest)WebRequest.Create(url);
             request.Method = "GET";
 
-            request.Headers["s_token"] = "c1550a463a9b91d2e01ca8320460743fb22a7360e71aa3354db36199599aca0c";//Adding AuthToken to the Request Header
+            request.Headers["s_token"] = token;//Adding AuthToken to the Request Header
 
             var response = (HttpWebResponse)request.GetResponse();
             using (var streamReader = new StreamReader(response.GetResponseStream()))

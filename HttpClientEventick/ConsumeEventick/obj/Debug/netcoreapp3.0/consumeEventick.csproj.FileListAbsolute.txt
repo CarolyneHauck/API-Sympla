@@ -37,3 +37,4 @@
 /Users/carolyne.carreira/Projects/HttpClientEventick/ConsumeEventick/bin/Debug/netcoreapp3.0/System.Net.Http.Formatting.dll
 /Users/carolyne.carreira/Projects/HttpClientEventick/ConsumeEventick/bin/Debug/netcoreapp3.0/System.Web.Http.dll
 /Users/carolyne.carreira/Projects/HttpClientEventick/ConsumeEventick/bin/Debug/netcoreapp3.0/Newtonsoft.Json.Bson.dll
+/Users/carolyne.carreira/Projects/HttpClientEventick/ConsumeEventick/obj/Debug/netcoreapp3.0/Razor/Views/Home/Events.cshtml.g.cs

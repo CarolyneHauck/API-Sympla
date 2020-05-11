@@ -9,22 +9,29 @@
 }
 else
 {
-    <table width="100%" border="1">
-       <tr>
-           <th colspan="1" width="30%">Nome do Participante:</th>
-           <td colspan="1" width="30%"><code>@Model.Data[0].FirstName</code> <code>@Model.Data[0].LastName</code></td>
-       </tr>
-       <tr>
-           <th>Email do Participante:</th>
-           <td><code>@Model.Data[0].Email</code></td>
-       </tr>
-       <tr>
-           <th>Tipo de ingresso:</th>
-           <td><code>@Model.Data[0].TicketName</code></td>
-       </tr>
-       <tr>
-           <th>Id do Usuario:</th>
-           <td><code>@Model.Data[0].Id</code></td>
-       </tr>
-    </table>
+    for (int i = 0; i <= Model.Pagination.Quantity - 1; i++)
+    {
+        <table width="100%" border="1">
+           <tr>
+               <th colspan="1" width="30%">Nome do Participante:</th>
+               <td colspan="1" width="30%"><code>@Model.Data[@i].FirstName</code> <code>@Model.Data[@i].LastName</code></td>
+           </tr>
+           <tr>
+               <th>Email do Participante:</th>
+               <td><code>@Model.Data[@i].Email</code></td>
+           </tr>
+           <tr>
+               <th>Tipo de ingresso:</th>
+               <td><code>@Model.Data[@i].TicketName</code></td>
+           </tr>
+           <tr>
+               <th>QrCode do ingresso:</th>
+               <td><code>@Model.Data[@i].TicketNumQrCode</code></td>
+           </tr>
+           <tr>
+               <th>Número do ingresso:</th>
+               <td><code>@Model.Data[@i].TicketNumber</code></td>
+           </tr>
+        </table>
+    }
 }

@@ -12,6 +12,8 @@ namespace consumeEventick.Models.EventsResponse
 
         [JsonProperty("pagination")]
         public Pagination Pagination { get; set; }
+
+        public string Token { get; set; }
     }
 
     public partial class Datum
